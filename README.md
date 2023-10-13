@@ -1,0 +1,1 @@
+# yskak.github.io
