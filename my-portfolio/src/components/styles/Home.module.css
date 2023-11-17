@@ -1,0 +1,13 @@
+.home {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-image: url('/Users/yskakshiyap/Desktop/yskak.github.io/1f5069b266765e958424fae3b98694cf.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    /* Change color based on your background image */
+}
