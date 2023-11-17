@@ -4,62 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Blog Title</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 2rem;
-        }
-
-        nav {
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 2rem;
-        }
-
-        nav a {
-            text-decoration: none;
-            color: #333;
-            margin: 0 1rem;
-            transition: color 0.3s;
-        }
-
-        nav a:hover {
-            color: #007BFF;
-        }
-
-        h2 {
-            margin: 1rem 0;
-        }
-
-        .post-link {
-            text-decoration: none;
-            color: #007BFF;
-            transition: color 0.3s;
-        }
-
-        .post-link:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <title>Yskak's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Navigation Bar -->
     <nav>
-        <div>
-            <a href="index.html">Yskak's Website</a>
-        </div>
+        <div><a href="#home">Yskak's Website</a></div>
         <div>
             <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#blog">Blog</a>
+            <a href="#cv">CV</a>
+            <a href="#experience">Experience</a>
+            <a href="#academics">Academics</a>
         </div>
     </nav>
 
-    <section>
-        <!-- Sample Blog Posts -->
-<!--         <h2><a class="post-link" href="_posts/2019-05-06-converting-nfa-to-dfa.md">Converting A NFA To A DFA</a></h2>
-        <h2><a class="post-link" href="_posts/2019-04-29-markdown-pandoc-texshop.md">Markdown, Pandoc & TeXShop</a></h2> -->
-        <!-- ... Additional posts ... -->
+    <!-- Welcome Section -->
+    <section id="home">
+        <h1>Welcome to My Portfolio!</h1>
+        <p>Hello, I'm Yskak. Welcome to my personal website.</p>
     </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <!-- Content about you -->
+    </section>
+
+    <!-- CV Section -->
+    <section id="cv">
+        <h2>My CV</h2>
+        <!-- Content or link to your CV -->
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <h2>My Experience</h2>
+        <!-- Content about your experiences -->
+    </section>
+
+    <!-- Academics Section -->
+    <section id="academics">
+        <h2>My Academics</h2>
+        <!-- Content about your academic background -->
+    </section>
+
+    <!-- Smooth Scroll Script -->
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 </body>
 </html>
