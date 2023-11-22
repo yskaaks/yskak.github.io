@@ -1,4 +1,0 @@
-# yskak.github.io
-
-
-### WELCOME
