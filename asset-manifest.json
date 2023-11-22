@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/yskak.github.io/static/css/main.921aa30d.css",
-    "main.js": "/yskak.github.io/static/js/main.f2ea21a9.js",
+    "main.js": "/yskak.github.io/static/js/main.372135be.js",
     "static/js/787.2dcca737.chunk.js": "/yskak.github.io/static/js/787.2dcca737.chunk.js",
     "static/media/Shutterstock_186837359.png": "/yskak.github.io/static/media/Shutterstock_186837359.e566202f62f2ed0f5d53.png",
     "index.html": "/yskak.github.io/index.html",
     "main.921aa30d.css.map": "/yskak.github.io/static/css/main.921aa30d.css.map",
-    "main.f2ea21a9.js.map": "/yskak.github.io/static/js/main.f2ea21a9.js.map",
+    "main.372135be.js.map": "/yskak.github.io/static/js/main.372135be.js.map",
     "787.2dcca737.chunk.js.map": "/yskak.github.io/static/js/787.2dcca737.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.921aa30d.css",
-    "static/js/main.f2ea21a9.js"
+    "static/js/main.372135be.js"
   ]
 }
