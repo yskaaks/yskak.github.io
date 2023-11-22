@@ -5,7 +5,7 @@ const Academics = () => {
     return (
         <section id="academics" className={styles.academics}>
             <h2>My Academics</h2>
-            <p>Information about your academic background...</p>
+            <p>More here soon</p>
             {/* Add your academic details */}
         </section>
     );

@@ -17,7 +17,6 @@ const Navbar = () => {
       <div><a href="#home" onClick={() => scrollTo('home')}>Yskak's Website</a></div>
       <div>
         <a href="#about" onClick={() => scrollTo('about')}>About</a>
-        <a href="#cv" onClick={() => scrollTo('cv')}>CV</a>
         <a href="#experience" onClick={() => scrollTo('experience')}>Experience</a>
         <a href="#academics" onClick={() => scrollTo('academics')}>Academics</a>
       </div>

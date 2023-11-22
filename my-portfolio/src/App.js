@@ -1,4 +1,4 @@
-// src/App.js
+// In App.js
 import React from 'react';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
@@ -11,11 +11,12 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Home />
-      <About />
-      <Experience />
-      <Academics />
-      {/* ... other components ... */}
+      <div className="mainContent">
+        <Home />
+        <About />
+        <Experience />
+        <Academics />
+      </div>
     </div>
   );
 }
