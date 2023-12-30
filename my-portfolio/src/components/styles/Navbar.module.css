@@ -12,6 +12,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 0.5rem 2rem;
+    box-sizing: border-box;
+    /* Add this line */
 }
 
 .navbar a {
@@ -20,7 +22,7 @@
     text-decoration: none;
     padding: 0.5rem 1rem;
     transition: color 0.3s ease-in-out;
-    
+
 }
 
 .navbar a:hover {
